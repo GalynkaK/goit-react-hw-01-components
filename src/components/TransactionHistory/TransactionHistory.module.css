@@ -1,0 +1,22 @@
+.transactionHistory{
+  width: 500px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: bisque;
+  font-size: 20px;
+}
+
+.transactionHistory thead{
+  background-color: aquamarine;
+}
+
+.transactionHistory td,
+.transactionHistory th {
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+.transactionHistory tr:nth-child(2n) {
+  background-color: grey;
+}
